@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="30dp"
+    tools:context=".ui.login.SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/usernametextview"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="22sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:layout_toRightOf="@id/usernametextview"
+
+        android:id="@+id/username"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/useremailtextview"
+        android:layout_below="@id/usernametextview"
+        android:layout_alignParentLeft="true"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="22sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/username"
+        android:id="@+id/email"
+        android:layout_toRightOf="@+id/useremailtextview"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/userPassword"
+        android:layout_below="@id/useremailtextview"
+        android:layout_alignParentLeft="true"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="22sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/email"
+        android:id="@+id/password"
+        android:layout_toRightOf="@+id/userPassword"
+        android:inputType="textPassword"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:id="@+id/phoneNumbertextfield"
+        android:layout_below="@id/userPassword"
+        android:layout_alignParentLeft="true"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="22sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/password"
+        android:id="@+id/phoneNumber"
+        android:layout_toRightOf="@+id/phoneNumbertextfield"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:id="@+id/UserState"
+        android:layout_below="@id/phoneNumbertextfield"
+        android:layout_alignParentLeft="true"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="22sp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StateSpinner"
+        android:layout_below="@id/phoneNumber"
+        android:layout_toRightOf="@+id/UserState"
+
+        android:padding="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:id="@+id/UserCity"
+        android:layout_below="@id/UserState"
+        android:layout_alignParentLeft="true"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textSize="22sp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CitySpinner"
+        android:layout_below="@id/StateSpinner"
+        android:layout_toRightOf="@+id/UserCity"
+        android:padding="30dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CitySpinner"
+
+        android:layout_marginVertical="30dp"
+        android:id="@+id/Submit"/>
+
+</RelativeLayout>

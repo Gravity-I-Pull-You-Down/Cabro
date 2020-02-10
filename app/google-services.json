@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "959766024593",
+    "firebase_url": "https://carbro-722b6.firebaseio.com",
+    "project_id": "carbro-722b6",
+    "storage_bucket": "carbro-722b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959766024593:android:1296a9d1f36548254e8a30",
+        "android_client_info": {
+          "package_name": "com.application.cabro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959766024593-sa1ohqm9k9ualk26ree086r35v3hiu1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.cabro",
+            "certificate_hash": "a647e297e0fe94db48d4c9744f93c4831bcbf51e"
+          }
+        },
+        {
+          "client_id": "959766024593-92stj193gdctuha81ip9v70c5dgobdk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6A35ELuP74IDpv_2NY1KmzdbellEkKr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959766024593-92stj193gdctuha81ip9v70c5dgobdk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

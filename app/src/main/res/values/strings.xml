@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Cabro</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+
+
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="CityUttarpradesh">
+        <item> Agra </item>
+        <item> Aligarh </item>
+        <item> Allahabad</item>
+        <item> Ambedkar Nagar</item>
+        <item> Amethi (Chatrapati Sahuji Mahraj Nagar)</item>
+        <item> Amroha (J.P. Nagar)</item>
+        <item> Auraiya</item>
+        <item> Azamgarh</item>
+        <item> Baghpat</item>
+        <item> Bahraich</item>
+        <item> Ballia</item>
+        <item> Balrampur</item>
+        <item> Banda</item>
+        <item> Barabanki</item>
+        <item> Bareilly</item>
+        <item> Basti</item>
+        <item> Bhadohi</item>
+        <item> Bijnor</item>
+        <item> Budaun</item>
+        <item> Bulandshahr</item>
+        <item> Chandauli</item>
+        <item> Chitrakoot</item>
+        <item> Deoria</item>
+        <item> Etah</item>
+        <item> Etawah</item>
+        <item> Faizabad</item>
+        <item> Farrukhabad</item>
+        <item> Fatehpur</item>
+        <item> Firozabad</item>
+        <item> Gautam Buddha Nagar</item>
+        <item> Ghaziabad</item>
+        <item> Ghazipur</item>
+        <item> Gonda</item>
+        <item> Gorakhpur</item>
+        <item> Hamirpur</item>
+        <item> Hapur (Panchsheel Nagar)</item>
+        <item> Hardoi</item>
+        <item> Hathras</item>
+        <item> Jalaun</item>
+        <item> Jaunpur</item>
+        <item> Jhansi</item>
+        <item> Kannauj</item>
+        <item> Kanpur Dehat</item>
+        <item> Kanpur Nagar</item>
+        <item> Kanshiram Nagar (Kasganj)</item>
+        <item> Kaushambi</item>
+        <item> Kushinagar (Padrauna)</item>
+        <item> Lakhimpur - Kheri</item>
+        <item> Lalitpur</item>
+        <item> Lucknow</item>
+        <item> Maharajganj</item>
+        <item> Mahoba</item>
+        <item> Mainpuri</item>
+        <item> Mathura</item>
+        <item> Mau</item>
+        <item> Meerut</item>
+        <item> Mirzapur</item>
+        <item> Moradabad</item>
+        <item> Muzaffarnagar</item>
+        <item> Pilibhit</item>
+        <item> Pratapgarh</item>
+        <item> RaeBareli</item>
+        <item> Rampur</item>
+        <item> Saharanpur</item>
+        <item> Sambhal (Bhim Nagar)</item>
+        <item> Sant Kabir Nagar</item>
+        <item> Shahjahanpur</item>
+        <item> Shamali (Prabuddh Nagar)</item>
+        <item> Shravasti</item>
+        <item> Siddharth Nagar</item>
+        <item> Sitapur</item>
+        <item> Sonbhadra</item>
+        <item> Sultanpur</item>
+        <item> Unnao</item>
+        <item> Varanasi</item>
+    </string-array>
+</resources>
